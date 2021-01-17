@@ -1,19 +1,21 @@
 # UnityPressureTouchGestureRecognizer
 
-가속도계를 이용한 Unity 용 터치 벨로시티 감지. iOS용 GarageBand에서 영감을 얻음.
+Touch velocity detection for Unity using an accelerometer. Inspired by GarageBand for iOS.
 
 ![demo unitypressuretouchgesturerecognizer](https://github.com/swparkaust/UnityPressureTouchGestureRecognizer/raw/master/img/demo-unitypressuretouchgesturerecognizer.gif)
 
-### 설치
+*Read this in other languages: [English](README.md), [한국어](README.ko.md).*
 
-Unity 이외의 종속성은 필요하지 않습니다. 무슨 일이 생기면 알려주세요!
+### Installation
 
-1. 빈 GameObject를 만들고 이름을 PressureTouchGestureRecognizer로 지정합니다.
-2. PressureTouchGestureRecognizer.cs 스크립트를 다운로드하여 GameObject에 추가합니다.
-3. 트리거 되면 "pressure"가 0.0f에서 2.0f 사이의 플로트로 설정됩니다.
-4. 선택적으로 인식에 필요한 최소 및 최대 터치 감도를 설정할 수 있습니다.
+No dependencies other than Unity are required. Let me know if anything happens!
 
-### 용법
+1. Create an empty GameObject and name it PressureTouchGestureRecognizer.
+2. Download the PressureTouchGestureRecognizer.cs script and add it to the GameObject.
+3. When triggered, "pressure" is set to a float between 0.0f and 2.0f.
+4. Optionally, you can set the minimum and maximum touch sensitivity required for recognition.
+
+### Usage
 ```C#
 	private PressureTouchGestureRecognizer recognizer;
 
